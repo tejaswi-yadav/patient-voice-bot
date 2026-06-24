@@ -1,0 +1,14 @@
+{
+  "call_id": "06-0624-0354",
+  "scenario_id": "insurance-question",
+  "scenario_name": "Insurance Coverage Question",
+  "started_at": "2026-06-24T03:55:17.634091+00:00",
+  "ended_at": "2026-06-24T03:56:14.828142+00:00",
+  "entries": [
+    {
+      "role": "patient",
+      "text": "Hey, quick question for you\u2014do you guys accept Aetna HMO?",
+      "timestamp": "03:55:29"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "call_id": "01-0624-0344",
+  "scenario_id": "schedule-routine",
+  "scenario_name": "Routine Appointment Scheduling",
+  "started_at": "2026-06-24T03:44:36.285812+00:00",
+  "ended_at": "2026-06-24T03:45:32.052030+00:00",
+  "entries": [
+    {
+      "role": "patient",
+      "text": "Hola, buenos d\u00edas. Quisiera pedir una cita para un chequeo de rutina, por favor. Lo m\u00e1s pronto que tengan disponible.",
+      "timestamp": "03:44:48"
+    }
+  ]
+}

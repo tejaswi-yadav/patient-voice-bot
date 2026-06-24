@@ -1,0 +1,22 @@
+Call ID: 02-0624-0345
+Scenario: Reschedule Existing Appointment (reschedule-appointment)
+Started: 2026-06-24T03:48:40.918200+00:00
+Ended: 2026-06-24T03:49:37.514600+00:00
+
+============================================================
+
+[00:00] AGENT: This call may be recorded for quality and training purposes.
+
+[00:08] AGENT: Thank you for calling Pivot Point Orthopedics.
+
+[00:16] AGENT: I just need your first and last name to get started.
+
+[00:24] AGENT: Welcome to Pivot Point Orthopedics.
+
+[03:48:46] PATIENT: Hey there, that was a loud noise! Sounds like you've got something exciting going on. What can I help you with today?
+
+[00:32] AGENT: Are you still there?
+
+[03:48:54] PATIENT: Hey, it's James Wilson here. Listen, I need to reschedule our meeting. Could we move it to tomorrow afternoon?
+
+[00:40] AGENT: I am going to end the call now. Goodbye.

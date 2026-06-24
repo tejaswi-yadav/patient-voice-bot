@@ -1,0 +1,24 @@
+Call ID: 09-0624-0356
+Scenario: Interruption and Barge-In (interruption-barge-in)
+Started: 2026-06-24T03:58:29.007470+00:00
+Ended: 2026-06-24T03:59:27.534147+00:00
+
+============================================================
+
+[00:00] AGENT: This call may be recorded for quality and training purposes.
+
+[00:08] AGENT: Thank you for calling Pivot Point Orthopedics.
+
+[00:16] AGENT: Would you like to create a demo patient profile?
+
+[00:24] AGENT: I just need your first and last name to get started.
+
+[03:58:34] PATIENT: Hey there! Sounds like you just made a loud noise, maybe clapping or something dropped, huh? Everything okay? Let me know how I can help!
+
+[00:32] AGENT: Are you still there?
+
+[03:58:41] PATIENT: Hi, I’d like to schedule a dermatology appointment, please. Could you help me find an available slot this week or next?
+
+[00:40] AGENT: I am going to end the call now.
+
+[00:48] AGENT: Goodbye.

@@ -1,0 +1,14 @@
+{
+  "call_id": "04-0624-0351",
+  "scenario_id": "medication-refill",
+  "scenario_name": "Medication Refill Request",
+  "started_at": "2026-06-24T03:52:40.793954+00:00",
+  "ended_at": "2026-06-24T03:53:37.335775+00:00",
+  "entries": [
+    {
+      "role": "patient",
+      "text": "Hi there! This is Robert Taylor, born July 8, 1965. I'd like to request a refill for my Lisinopril prescription. Could you help me with that, please?",
+      "timestamp": "03:52:53"
+    }
+  ]
+}

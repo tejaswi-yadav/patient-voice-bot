@@ -1,0 +1,32 @@
+Call ID: 08-0624-0356
+Scenario: Vague and Unclear Request (unclear-request)
+Started: 2026-06-24T03:56:17.740148+00:00
+Ended: 2026-06-24T03:57:22.061851+00:00
+
+============================================================
+
+[00:00] AGENT: This call may be recorded for quality and training purposes.
+
+[00:08] AGENT: Thank you for calling Pivot Point Orthopedics.
+
+[00:16] AGENT: Would you like to create a demo patient profile?
+
+[00:24] AGENT: I just need your first and last name to get started.
+
+[00:30] PATIENT: .
+
+[00:32] AGENT: Welcome to Pivot Point Orthopedics.
+
+[00:35] PATIENT: .
+
+[00:40] AGENT: Are you still there?
+
+[00:40] PATIENT: .
+
+[00:45] PATIENT: .
+
+[00:48] AGENT: I am going to end the call now.
+
+[00:50] PATIENT: .
+
+[00:55] PATIENT: .

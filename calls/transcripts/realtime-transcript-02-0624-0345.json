@@ -1,0 +1,19 @@
+{
+  "call_id": "02-0624-0345",
+  "scenario_id": "reschedule-appointment",
+  "scenario_name": "Reschedule Existing Appointment",
+  "started_at": "2026-06-24T03:48:40.918200+00:00",
+  "ended_at": "2026-06-24T03:49:37.514600+00:00",
+  "entries": [
+    {
+      "role": "patient",
+      "text": "Hey there, that was a loud noise! Sounds like you've got something exciting going on. What can I help you with today?",
+      "timestamp": "03:48:46"
+    },
+    {
+      "role": "patient",
+      "text": "Hey, it's James Wilson here. Listen, I need to reschedule our meeting. Could we move it to tomorrow afternoon?",
+      "timestamp": "03:48:54"
+    }
+  ]
+}
