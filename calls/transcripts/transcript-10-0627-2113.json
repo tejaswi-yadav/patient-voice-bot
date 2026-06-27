@@ -1,0 +1,74 @@
+{
+  "call_id": "10-0627-2113",
+  "scenario_id": "interruption-barge-in",
+  "scenario_name": "Interruption and Barge-In",
+  "started_at": "2026-06-27T21:14:04.893381+00:00",
+  "ended_at": "2026-06-27T21:14:53.974592+00:00",
+  "entries": [
+    {
+      "role": "agent",
+      "text": "This call may be recorded for quality and training purposes.",
+      "timestamp": "00:00"
+    },
+    {
+      "role": "agent",
+      "text": "Para Espa\u00f1ol, oprima el 2.",
+      "timestamp": "00:06"
+    },
+    {
+      "role": "agent",
+      "text": "Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI.",
+      "timestamp": "00:12"
+    },
+    {
+      "role": "agent",
+      "text": "Am I speaking with Maria?",
+      "timestamp": "00:18"
+    },
+    {
+      "role": "patient",
+      "text": "Hi, this is Emily Davis. I'm actually calling to book a dermatology appointment.",
+      "timestamp": "00:24"
+    },
+    {
+      "role": "agent",
+      "text": "Thanks for letting me know, Emily.",
+      "timestamp": "00:30"
+    },
+    {
+      "role": "patient",
+      "text": "Oh, I'm sorry, I must've dialed the wrong number. I'll go ahead and find the right office. Thanks anyway.",
+      "timestamp": "00:36"
+    },
+    {
+      "role": "agent",
+      "text": "Pivot Point Orthopedics is an orthopedic clinic, so we don't offer dermatology appointments.",
+      "timestamp": "00:42"
+    },
+    {
+      "role": "patient",
+      "text": "You too, take care.",
+      "timestamp": "00:48"
+    },
+    {
+      "role": "agent",
+      "text": "Would you like help booking an orthopedic or physical therapy visit instead?",
+      "timestamp": "00:54"
+    },
+    {
+      "role": "agent",
+      "text": "No problem.",
+      "timestamp": "01:00"
+    },
+    {
+      "role": "agent",
+      "text": "If you ever need orthopedic care, feel free to call us.",
+      "timestamp": "01:06"
+    },
+    {
+      "role": "agent",
+      "text": "Have a great day.",
+      "timestamp": "01:12"
+    }
+  ]
+}

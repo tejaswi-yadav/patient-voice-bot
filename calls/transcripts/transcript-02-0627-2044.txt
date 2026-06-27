@@ -1,0 +1,56 @@
+Call ID: 02-0627-2044
+Scenario: Reschedule Existing Appointment (reschedule-appointment)
+Started: 2026-06-27T20:45:01.732462+00:00
+Ended: 2026-06-27T20:47:14.334130+00:00
+
+============================================================
+
+[00:00] AGENT: This call may be recorded for quality and training purposes.
+
+[00:06] AGENT: Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI.
+
+[00:12] AGENT: Am I speaking with Maria?
+
+[00:18] AGENT: Please provide the full name and date of birth of the patient whose appointment you'd like to reschedule.
+
+[00:24] PATIENT: Hi, this is
+
+[00:30] AGENT: Just to confirm, I have your name as James Wilson and your date of birth as March 5th, 1983. Is that correct?
+
+[00:36] PATIENT: Oh, actually, this is James Wilson calling. I need to reschedule my appointment.
+
+[00:42] AGENT: If so, please spell your first and last name for me.
+
+[00:48] PATIENT: Sure, it’s James Wilson, and my date of birth is March 5th, 1983.
+
+[00:54] AGENT: Thanks. Could you please spell your last name, Wilson?
+
+[01:00] PATIENT: Yes, that’s correct. It’s J-A-M-E-S for the first name, and W-I-L-S-O-N for the last name.
+
+[01:06] AGENT: Would you like to use your phone number to look up your record? If so, please provide the number you have on file with us.
+
+[01:12] PATIENT: Sure, it’s W-I-L-S-O-N.
+
+[01:18] AGENT: If you're not sure, just let me know.
+
+[01:24] PATIENT: Sure, it's W-I-L-S-O-N.
+
+[01:30] AGENT: I have your phone number as 555-239-7812 and your date of birth as March 5th, 1983. Is that correct?
+
+[01:36] PATIENT: Yeah, sure. The number on file should be 555-239-7812.
+
+[01:42] AGENT: I can't help with rescheduling right now, but I'll connect you to our patient support team.
+
+[01:48] PATIENT: Yes, that’s correct.
+
+[01:54] AGENT: Please stay on the line. Connecting you to a representative. Please wait.
+
+[02:00] PATIENT: Oh, I really need to reschedule that appointment.
+
+[02:06] AGENT: Hello, you've reached the Pretty Good AI test line.
+
+[02:12] PATIENT: All right, I'm holding.
+
+[02:18] AGENT: Goodbye.
+
+[02:24] PATIENT: Wait, I still need to reschedule my appointment—can you help me with that before you go?

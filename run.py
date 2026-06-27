@@ -22,6 +22,7 @@ from src.call_manager import (
 )
 from src.config import CALLS_DIR, METADATA_DIR, RECORDINGS_DIR, TRANSCRIPTS_DIR, get_settings
 from src.recorder import redownload_missing_recordings
+from src.recording_check import print_recording_report
 from src.scenarios import get_scenario, list_scenarios
 from src.whisper_transcribe import retranscribe_all_recordings
 from src.server import create_app
@@ -141,6 +142,10 @@ def cmd_retranscribe(_args: argparse.Namespace) -> None:
     print("Run 'python run.py verify' to check results.")
 
 
+def cmd_check_recordings(_args: argparse.Namespace) -> None:
+    raise SystemExit(print_recording_report(RECORDINGS_DIR))
+
+
 def cmd_list(_args: argparse.Namespace) -> None:
     print("Available scenarios:\n")
     for s in list_scenarios():
@@ -205,6 +210,12 @@ def main() -> None:
         help="Re-fetch missing MP3 recordings from Twilio",
     )
     download_parser.set_defaults(func=cmd_download_recordings)
+
+    check_rec = sub.add_parser(
+        "check-recordings",
+        help="Analyze stereo MP3 levels (patient vs agent channel)",
+    )
+    check_rec.set_defaults(func=cmd_check_recordings)
 
     args = parser.parse_args()
     args.func(args)

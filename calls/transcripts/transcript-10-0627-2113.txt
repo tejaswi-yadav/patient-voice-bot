@@ -1,0 +1,32 @@
+Call ID: 10-0627-2113
+Scenario: Interruption and Barge-In (interruption-barge-in)
+Started: 2026-06-27T21:14:04.893381+00:00
+Ended: 2026-06-27T21:14:53.974592+00:00
+
+============================================================
+
+[00:00] AGENT: This call may be recorded for quality and training purposes.
+
+[00:06] AGENT: Para Español, oprima el 2.
+
+[00:12] AGENT: Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI.
+
+[00:18] AGENT: Am I speaking with Maria?
+
+[00:24] PATIENT: Hi, this is Emily Davis. I'm actually calling to book a dermatology appointment.
+
+[00:30] AGENT: Thanks for letting me know, Emily.
+
+[00:36] PATIENT: Oh, I'm sorry, I must've dialed the wrong number. I'll go ahead and find the right office. Thanks anyway.
+
+[00:42] AGENT: Pivot Point Orthopedics is an orthopedic clinic, so we don't offer dermatology appointments.
+
+[00:48] PATIENT: You too, take care.
+
+[00:54] AGENT: Would you like help booking an orthopedic or physical therapy visit instead?
+
+[01:00] AGENT: No problem.
+
+[01:06] AGENT: If you ever need orthopedic care, feel free to call us.
+
+[01:12] AGENT: Have a great day.

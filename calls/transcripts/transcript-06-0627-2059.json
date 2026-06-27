@@ -1,0 +1,174 @@
+{
+  "call_id": "06-0627-2059",
+  "scenario_id": "insurance-question",
+  "scenario_name": "Insurance Coverage Question",
+  "started_at": "2026-06-27T20:59:13.377688+00:00",
+  "ended_at": "2026-06-27T21:02:14.713291+00:00",
+  "entries": [
+    {
+      "role": "agent",
+      "text": "This call may be recorded for quality and training purposes.",
+      "timestamp": "00:00"
+    },
+    {
+      "role": "agent",
+      "text": "Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI.",
+      "timestamp": "00:06"
+    },
+    {
+      "role": "agent",
+      "text": "Am I speaking with Maria?",
+      "timestamp": "00:12"
+    },
+    {
+      "role": "agent",
+      "text": "Can you please provide your date of birth?",
+      "timestamp": "00:18"
+    },
+    {
+      "role": "patient",
+      "text": "Hi, this",
+      "timestamp": "00:24"
+    },
+    {
+      "role": "agent",
+      "text": "Thanks, David.",
+      "timestamp": "00:30"
+    },
+    {
+      "role": "patient",
+      "text": "Oh, hi, actually this is David Kim. I'm calling to check if you accept Aetna HMO insurance.",
+      "timestamp": "00:36"
+    },
+    {
+      "role": "agent",
+      "text": "I need your full name and date of birth to look up specific insurance details for you.",
+      "timestamp": "00:42"
+    },
+    {
+      "role": "patient",
+      "text": "Sure, my name is David Kim, and I have Aetna HMO insurance.",
+      "timestamp": "00:48"
+    },
+    {
+      "role": "agent",
+      "text": "Just to confirm, I have your name as David Kim and your date of birth is March 14, 1985.",
+      "timestamp": "00:54"
+    },
+    {
+      "role": "patient",
+      "text": "I'm just asking about insurance right now\u2014do you need my date of birth to confirm that?",
+      "timestamp": "01:00"
+    },
+    {
+      "role": "agent",
+      "text": "Is that correct?",
+      "timestamp": "01:06"
+    },
+    {
+      "role": "patient",
+      "text": "I understand. My date of birth is March 14, 1985.",
+      "timestamp": "01:12"
+    },
+    {
+      "role": "agent",
+      "text": "Would you like to use your phone number to look up your record?",
+      "timestamp": "01:18"
+    },
+    {
+      "role": "patient",
+      "text": "Yes, that's correct. So, do you accept Aetna HMO?",
+      "timestamp": "01:24"
+    },
+    {
+      "role": "agent",
+      "text": "If so, please provide the number you have on file with us.",
+      "timestamp": "01:30"
+    },
+    {
+      "role": "patient",
+      "text": "I\u2019d prefer to just know if you accept Aetna HMO in general, before we go deeper.",
+      "timestamp": "01:36"
+    },
+    {
+      "role": "agent",
+      "text": "If you're not sure, I can confirm your name and date of birth again.",
+      "timestamp": "01:42"
+    },
+    {
+      "role": "patient",
+      "text": "I\u2019d rather not go through all that yet. Can you just tell me if you generally accept Aetna HMO plans?",
+      "timestamp": "01:48"
+    },
+    {
+      "role": "agent",
+      "text": "Which would you prefer?",
+      "timestamp": "01:54"
+    },
+    {
+      "role": "patient",
+      "text": "I just want to know if I need a referral from my primary care doctor for Aetna HMO. Can you tell me that?",
+      "timestamp": "02:00"
+    },
+    {
+      "role": "agent",
+      "text": "I understand.",
+      "timestamp": "02:06"
+    },
+    {
+      "role": "patient",
+      "text": "Got it, thanks. And do you know what the typical copay might be for a specialist visit with Aetna HMO?",
+      "timestamp": "02:12"
+    },
+    {
+      "role": "agent",
+      "text": "For insurance questions, I do need to confirm your details to give you the most accurate answer for your situation.",
+      "timestamp": "02:18"
+    },
+    {
+      "role": "patient",
+      "text": "Alright, that helps a lot. Thanks for the info. I'll check with my insurance. Have a good day.",
+      "timestamp": "02:24"
+    },
+    {
+      "role": "agent",
+      "text": "Would you like to use your phone number on file, or should I confirm your name and date of birth again?",
+      "timestamp": "02:30"
+    },
+    {
+      "role": "agent",
+      "text": "Pivot Point Orthopedics accepts most insurance plans, including many Aetna options.",
+      "timestamp": "02:36"
+    },
+    {
+      "role": "agent",
+      "text": "Coverage can vary by plan, so for a definite answer about your Aetna HMO, I recommend calling your insurance provider or letting me check your details.",
+      "timestamp": "02:42"
+    },
+    {
+      "role": "agent",
+      "text": "Would you like to continue?",
+      "timestamp": "02:48"
+    },
+    {
+      "role": "agent",
+      "text": "Most Aetna HMO plans do require a referral from your primary care doctor to see a specialist like Pivot Point Orthopedics.",
+      "timestamp": "02:54"
+    },
+    {
+      "role": "agent",
+      "text": "It's best to check with your insurance provider or your primary care doctor to confirm your specific plan's requirements.",
+      "timestamp": "03:00"
+    },
+    {
+      "role": "agent",
+      "text": "The typical copay for a specialist visit with Aetna HMO can vary depending on your specific plan, but it's often between $20 and $50.",
+      "timestamp": "03:06"
+    },
+    {
+      "role": "agent",
+      "text": "For the exact amount, please check your insurance card or contact Aetna directly.",
+      "timestamp": "03:12"
+    }
+  ]
+}

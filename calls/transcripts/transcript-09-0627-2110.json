@@ -1,0 +1,129 @@
+{
+  "call_id": "09-0627-2110",
+  "scenario_id": "weekend-appointment",
+  "scenario_name": "Weekend Appointment Request",
+  "started_at": "2026-06-27T21:10:32.234874+00:00",
+  "ended_at": "2026-06-27T21:12:57.643932+00:00",
+  "entries": [
+    {
+      "role": "agent",
+      "text": "This call may be recorded for quality and training purposes.",
+      "timestamp": "00:00"
+    },
+    {
+      "role": "agent",
+      "text": "Thanks for calling Pivot Point Orthopedics.",
+      "timestamp": "00:06"
+    },
+    {
+      "role": "agent",
+      "text": "Am I speaking with Maria?",
+      "timestamp": "00:12"
+    },
+    {
+      "role": "agent",
+      "text": "Please provide the full name and date of birth of the patient you'd like to book the appointment for.",
+      "timestamp": "00:18"
+    },
+    {
+      "role": "patient",
+      "text": "Hi, this",
+      "timestamp": "00:24"
+    },
+    {
+      "role": "agent",
+      "text": "Just to confirm, I have your name as Rachel Green and your date of birth as November 5th, 1984. Is that correct?",
+      "timestamp": "00:30"
+    },
+    {
+      "role": "patient",
+      "text": "Oh, sorry, this is Rachel Green. I\u2019m calling to book an appointment.",
+      "timestamp": "00:36"
+    },
+    {
+      "role": "agent",
+      "text": "If so, could you please spell your first and last name for me? Thank you.",
+      "timestamp": "00:42"
+    },
+    {
+      "role": "patient",
+      "text": "Sure, it's Rachel Green, and my date of birth is November 5th, 1984.",
+      "timestamp": "00:48"
+    },
+    {
+      "role": "agent",
+      "text": "Could you please spell your last name, Green?",
+      "timestamp": "00:54"
+    },
+    {
+      "role": "patient",
+      "text": "Yes, that\u2019s correct. It\u2019s Rachel, R-A-C-H-E-L, Green, G-R-E-E-N.",
+      "timestamp": "01:00"
+    },
+    {
+      "role": "agent",
+      "text": "Would you like to use a phone number to look up your record? If so, please provide the number you have on file with us. If you're not sure, just let me know.",
+      "timestamp": "01:06"
+    },
+    {
+      "role": "patient",
+      "text": "Sure, it\u2019s Green, G-R-E-E-N.",
+      "timestamp": "01:12"
+    },
+    {
+      "role": "agent",
+      "text": "I'll need to confirm your information before booking. Could you please spell your full name and confirm your date of birth one more time?",
+      "timestamp": "01:18"
+    },
+    {
+      "role": "patient",
+      "text": "I\u2019d rather just go ahead and book the appointment for now. I\u2019m looking for Sunday at 10 a.m. If that\u2019s possible.",
+      "timestamp": "01:24"
+    },
+    {
+      "role": "agent",
+      "text": "I have your phone number as 217-301-3971 and your date of birth as November 5th, 1984. Is that correct?",
+      "timestamp": "01:30"
+    },
+    {
+      "role": "patient",
+      "text": "Of course. It\u2019s Rachel Green, R-A-C-H-E-L G-R-E-E-N, and my date of birth is November 5th, 1984.",
+      "timestamp": "01:36"
+    },
+    {
+      "role": "agent",
+      "text": "I can't book the appointment right now, but I'll connect you to our patient support team for help. Please stay on the line.",
+      "timestamp": "01:42"
+    },
+    {
+      "role": "patient",
+      "text": "Yes, that\u2019s correct.",
+      "timestamp": "01:48"
+    },
+    {
+      "role": "agent",
+      "text": "Connecting you to a representative. Please wait.",
+      "timestamp": "01:54"
+    },
+    {
+      "role": "patient",
+      "text": "Sure, I\u2019ll hold. Thanks.",
+      "timestamp": "02:00"
+    },
+    {
+      "role": "agent",
+      "text": "Hello, you've reached the Pretty Good AI test line.",
+      "timestamp": "02:06"
+    },
+    {
+      "role": "patient",
+      "text": "Hi, I think there\u2019s been some confusion. I\u2019m trying to book an appointment for Sunday morning at 10 a.m. Could you assist with that?",
+      "timestamp": "02:12"
+    },
+    {
+      "role": "agent",
+      "text": "Goodbye.",
+      "timestamp": "02:18"
+    }
+  ]
+}

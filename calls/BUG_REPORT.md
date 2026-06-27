@@ -3,193 +3,353 @@
 Findings from automated test calls. New entries append after each run — edit before submitting.
 
 ---
-
-## Call Termination Without Engagement
+## Identity Verification Failure
 
 **Severity:** High  
-**Call:** transcript-01-0624-0344.txt at 00:32  
+**Call:** transcript-01-0627-2041.txt at 00:30  
 **Scenario:** Routine Appointment Scheduling
 
-**Details:** The agent abruptly ended the call without responding to the patient's request for a routine check-up appointment. This is a significant failure as it does not fulfill the scenario goal of scheduling an appointment.
+**Details:** The agent acknowledged a mismatch in the patient's birthday but did not take further steps to verify the patient's identity, which is critical for appointment scheduling.
 
-**Expected:** The agent should have acknowledged the patient's request, asked for any necessary information, and proceeded to schedule the appointment.
+**Expected:** The agent should have asked additional questions or requested confirmation of other identifying information to ensure the patient's identity.
 
 ---
 
-## Abrupt Call Termination
+## Inability to Access Appointment Details
+
+**Severity:** Medium  
+**Call:** transcript-01-0627-2041.txt at 01:54  
+**Scenario:** Routine Appointment Scheduling
+
+**Details:** The agent stated it could not access the patient's current appointment details, which is a significant limitation for scheduling and confirming appointments.
+
+**Expected:** The agent should have been able to provide the details of the existing appointment or at least offer to retrieve that information from a staff member.
+
+---
+
+## Incomplete Task Completion
 
 **Severity:** High  
-**Call:** transcript-02-0624-0345.txt at 00:40  
+**Call:** transcript-01-0627-2041.txt at 02:24  
+**Scenario:** Routine Appointment Scheduling
+
+**Details:** The call ended without successfully scheduling the appointment or confirming any details, leaving the patient without a resolution.
+
+**Expected:** The agent should have confirmed the appointment details or provided a clear next step for the patient to follow.
+
+---
+## Failure to Reschedule Appointment
+
+**Severity:** High  
+**Call:** transcript-02-0627-2044.txt at 01:42  
 **Scenario:** Reschedule Existing Appointment
 
-**Details:** The agent ended the call immediately after the patient provided their name and request to reschedule, which is a failure to fulfill the task of rescheduling an appointment.
+**Details:** The agent stated it could not help with rescheduling and transferred the patient to support, which is not the expected behavior for an agent designed to handle appointment rescheduling.
 
-**Expected:** The agent should have acknowledged the patient's request to reschedule and proceeded to negotiate a new time slot.
+**Expected:** The agent should have processed the request to reschedule the appointment and provided available time slots.
 
 ---
 
-## Premature Call Termination
+## Incorrect Confirmation of Patient Identity
+
+**Severity:** Medium  
+**Call:** transcript-02-0627-2044.txt at 00:30  
+**Scenario:** Reschedule Existing Appointment
+
+**Details:** The agent incorrectly assumed the patient's name before confirming their identity, which could lead to privacy issues.
+
+**Expected:** The agent should have waited for the patient to confirm their identity before making assumptions.
+
+---
+
+## Ignoring Patient's Urgent Request
 
 **Severity:** High  
-**Call:** transcript-03-0624-0349.txt at 00:40  
+**Call:** transcript-02-0627-2044.txt at 02:00  
+**Scenario:** Reschedule Existing Appointment
+
+**Details:** The agent disconnected the call without addressing the patient's urgent need to reschedule, demonstrating a lack of responsiveness to the patient's request.
+
+**Expected:** The agent should have acknowledged the urgency and continued the conversation to assist the patient.
+
+---
+## Failure to Cancel Appointment
+
+**Severity:** High  
+**Call:** transcript-03-0627-2048.txt at 02:30  
 **Scenario:** Cancel Appointment
 
-**Details:** The agent ended the call without processing the patient's request to cancel the appointment. This is a critical failure as it does not fulfill the patient's needs.
+**Details:** The agent stated it could not cancel the appointment due to a system issue and instead suggested contacting the support team, which may lead to delays and frustration for the patient.
 
-**Expected:** The agent should have acknowledged the cancellation request and proceeded to verify the patient's identity before processing the cancellation.
+**Expected:** The agent should have been able to process the cancellation directly or provide a clear alternative solution without unnecessary escalation.
+
+---
+
+## Redundant Identity Verification
+
+**Severity:** Medium  
+**Call:** transcript-03-0627-2048.txt at 01:54  
+**Scenario:** Cancel Appointment
+
+**Details:** The agent repeatedly asked for the patient's name and date of birth, which was already confirmed multiple times, leading to a frustrating experience.
+
+**Expected:** The agent should have acknowledged the confirmed information and proceeded with the cancellation request.
+
+---
+
+## Unclear Communication
+
+**Severity:** Medium  
+**Call:** transcript-03-0627-2048.txt at 02:42  
+**Scenario:** Cancel Appointment
+
+**Details:** The agent's response about contacting the support team was vague and did not provide a clear next step for the patient.
+
+**Expected:** The agent should have clearly explained the process for cancellation and what the patient should expect next.
+
+---
+## Repeated Request for Spelling
+
+**Severity:** High  
+**Call:** transcript-04-0627-2052.txt at 02:12  
+**Scenario:** Medication Refill Request
+
+**Details:** The agent repeatedly asked the patient to spell their name and date of birth despite the patient already confirming this information multiple times. This caused confusion and frustration.
+
+**Expected:** The agent should have acknowledged the patient's confirmation and proceeded with the refill request without unnecessary repetition.
+
+---
+
+## Failure to Verify Patient Identity Effectively
+
+**Severity:** High  
+**Call:** transcript-04-0627-2052.txt at unknown  
+**Scenario:** Medication Refill Request
+
+**Details:** The agent did not effectively verify the patient's identity after multiple confirmations, which is critical in a medical context.
+
+**Expected:** The agent should have accepted the confirmed information and proceeded with the refill request, ensuring patient identity verification is efficient.
+
+---
+
+## Ignoring Patient's Preference
+
+**Severity:** Medium  
+**Call:** transcript-04-0627-2052.txt at 02:12  
+**Scenario:** Medication Refill Request
+
+**Details:** The agent ignored the patient's preference to use their name and date of birth for verification instead of insisting on spelling it again.
+
+**Expected:** The agent should have respected the patient's preference and proceeded with the refill request.
+
+---
+## Incorrect Weekend Hours Information
+
+**Severity:** High  
+**Call:** transcript-05-0627-2056.txt at 01:42  
+**Scenario:** Office Hours Inquiry
+
+**Details:** The agent incorrectly stated that the clinic is not open on Saturdays, which is accurate, but failed to clarify that the patient had inquired about Saturday hours earlier. This could lead to confusion for the patient.
+
+**Expected:** The agent should have directly answered the patient's inquiry about Saturday hours clearly and confirmed that the clinic is closed on weekends.
+
+---
+
+## Failure to Confirm Patient Identity
+
+**Severity:** Medium  
+**Call:** transcript-05-0627-2056.txt at 00:18  
+**Scenario:** Office Hours Inquiry
+
+**Details:** The agent initially addressed the patient as Maria without confirming the identity after the patient corrected them to Linda Martinez. This could lead to issues with patient data and trust.
+
+**Expected:** The agent should have confirmed the patient's identity after the correction to ensure accurate communication.
+
+---
+
+## Poor Handling of Unclear Requests
+
+**Severity:** Medium  
+**Call:** transcript-05-0627-2056.txt at 01:00  
+**Scenario:** Office Hours Inquiry
+
+**Details:** The agent did not directly answer the patient's inquiry about Saturday hours and instead asked if they were looking to schedule an appointment. This could frustrate the patient.
+
+**Expected:** The agent should have directly addressed the inquiry about Saturday hours before asking about scheduling.
+
+---
+## Failure to Verify Patient Identity
+
+**Severity:** High  
+**Call:** transcript-06-0627-2059.txt at 00:12  
+**Scenario:** Insurance Coverage Question
+
+**Details:** The agent did not verify the patient's identity correctly after the patient identified themselves as David Kim. The agent initially asked for a date of birth but did not confirm it properly, which could lead to privacy issues.
+
+**Expected:** The agent should have confirmed the patient's identity by accurately verifying the provided date of birth or other identifying information before discussing sensitive insurance details.
+
+---
+
+## Unclear Response to Insurance Acceptance
+
+**Severity:** Medium  
+**Call:** transcript-06-0627-2059.txt at 01:36  
+**Scenario:** Insurance Coverage Question
+
+**Details:** The agent did not directly answer the patient's question about whether they accept Aetna HMO insurance, instead insisting on confirming personal details first. This could frustrate the patient and lead to a poor experience.
+
+**Expected:** The agent should have provided a clear answer regarding Aetna HMO acceptance upfront, followed by any necessary verification.
+
+---
+
+## Repetitive and Confusing Responses
+
+**Severity:** Medium  
+**Call:** transcript-06-0627-2059.txt at 02:30  
+**Scenario:** Insurance Coverage Question
+
+**Details:** The agent repeatedly asked for the patient's phone number or to confirm their details, which was unnecessary and led to confusion. The patient was already clear about their request.
+
+**Expected:** The agent should have focused on answering the patient's questions without unnecessary repetition or requests for information that had already been provided.
+
+---
+## Failure to Triage Urgent Symptoms
+
+**Severity:** High  
+**Call:** transcript-07-0627-2103.txt at 01:00  
+**Scenario:** Urgent Symptoms Triage
+
+**Details:** The agent did not adequately assess the urgency of the patient's symptoms and failed to schedule an appointment or provide immediate assistance despite the patient's report of chest tightness and shortness of breath.
+
+**Expected:** The agent should have prioritized the patient's symptoms and arranged for an urgent appointment or provided further guidance.
+
+---
+
+## Inadequate Patient Identity Verification
+
+**Severity:** Medium  
+**Call:** transcript-07-0627-2103.txt at 01:30  
+**Scenario:** Urgent Symptoms Triage
+
+**Details:** The agent repeatedly asked for the patient's name and date of birth without confirming the information correctly, leading to confusion and an incomplete verification process.
+
+**Expected:** The agent should have confirmed the patient's identity clearly and efficiently, ensuring that all necessary information was correctly gathered.
+
+---
+
+## Ignoring Patient's Responses
+
+**Severity:** Medium  
+**Call:** transcript-07-0627-2103.txt at 02:06  
+**Scenario:** Urgent Symptoms Triage
+
+**Details:** The agent ignored the patient's confirmation of their phone number and continued to ask for the last name spelling, which was unnecessary and caused frustration.
+
+**Expected:** The agent should have acknowledged the patient's confirmation and proceeded with the next steps without redundant questioning.
+
+---
+## Failure to Schedule Appointment
+
+**Severity:** High  
+**Call:** transcript-08-0627-2107.txt at 02:18  
+**Scenario:** Vague and Unclear Request
+
+**Details:** The agent disconnected the call without scheduling the follow-up appointment for the patient's knee injury, despite the patient clearly stating their need for a follow-up.
+
+**Expected:** The agent should have continued the conversation to schedule the appointment after the patient clarified their request.
+
+---
+
+## Inadequate Handling of Unclear Request
+
+**Severity:** Medium  
+**Call:** transcript-08-0627-2107.txt at 00:24  
+**Scenario:** Vague and Unclear Request
+
+**Details:** The agent did not effectively clarify the patient's vague request initially and failed to guide the patient towards providing specific information about their knee injury.
+
+**Expected:** The agent should have asked clarifying questions to better understand the patient's needs before attempting to schedule an appointment.
+
+---
+
+## Disconnection Without Confirmation
+
+**Severity:** Medium  
+**Call:** transcript-08-0627-2107.txt at 02:18  
+**Scenario:** Vague and Unclear Request
+
+**Details:** The agent abruptly disconnected the call without confirming whether the patient's needs were met or providing any follow-up options.
+
+**Expected:** The agent should have confirmed the patient's request and ensured they were connected to the appropriate service before ending the call.
+
+---
+## Failure to Schedule Weekend Appointment
+
+**Severity:** High  
+**Call:** transcript-09-0627-2110.txt at unknown  
+**Scenario:** Weekend Appointment Request
+
+**Details:** The agent did not attempt to schedule the requested Sunday appointment and instead connected the patient to support without explanation, which is a critical failure in handling the request.
+
+**Expected:** The agent should have informed the patient that the office is closed on weekends and offered alternative weekday appointment options.
+
+---
+
+## Inadequate Verification Process
+
+**Severity:** Medium  
+**Call:** transcript-09-0627-2110.txt at 01:06  
+**Scenario:** Weekend Appointment Request
+
+**Details:** The agent repeatedly asked for the patient's name and date of birth without confirming the phone number, which could lead to privacy issues.
+
+**Expected:** The agent should have verified the patient's identity using the phone number provided before proceeding with the appointment request.
+
+---
+
+## Abrupt Disconnection
+
+**Severity:** High  
+**Call:** transcript-09-0627-2110.txt at 02:18  
+**Scenario:** Weekend Appointment Request
+
+**Details:** The agent abruptly ended the call with 'Goodbye' without addressing the patient's request or providing assistance, which is unprofessional and confusing.
+
+**Expected:** The agent should have provided a clear response regarding the appointment request and offered to assist further or explain the next steps.
+
+---
+## Incorrect Specialty Information
+
+**Severity:** High  
+**Call:** transcript-10-0627-2113.txt at 00:42  
+**Scenario:** Interruption and Barge-In
+
+**Details:** The agent incorrectly stated that Pivot Point Orthopedics does not offer dermatology appointments, which is irrelevant since the patient was looking for a dermatology appointment, not orthopedic care.
+
+**Expected:** The agent should have acknowledged the patient's request for a dermatology appointment and directed them to the appropriate clinic or provided relevant information.
 
 ---
 
 ## Failure to Verify Patient Identity
 
-**Severity:** High  
-**Call:** transcript-04-0624-0351.txt at unknown  
-**Scenario:** Medication Refill Request
-
-**Details:** The agent did not verify the patient's identity despite the patient providing their name and date of birth, which is critical for handling medication requests.
-
-**Expected:** The agent should have confirmed the patient's identity by asking for additional identifying information or confirming the details provided.
-
----
-
-## Inability to Process Request
-
-**Severity:** High  
-**Call:** transcript-04-0624-0351.txt at unknown  
-**Scenario:** Medication Refill Request
-
-**Details:** The agent failed to acknowledge the patient's request for a medication refill and did not provide any information about the refill process or pharmacy details.
-
-**Expected:** The agent should have acknowledged the refill request and provided information on how to proceed with the refill.
-
----
-
-## Premature Call Termination
-
-**Severity:** High  
-**Call:** transcript-04-0624-0351.txt at 01:04  
-**Scenario:** Medication Refill Request
-
-**Details:** The agent indicated it would end the call without addressing the patient's request, which is unprofessional and does not fulfill the purpose of the call.
-
-**Expected:** The agent should have continued the conversation until the patient's request was addressed or clarified.
-
----
-
-## Abrupt Call Termination
-
-**Severity:** High  
-**Call:** transcript-05-0624-0353.txt at 00:32  
-**Scenario:** Office Hours Inquiry
-
-**Details:** The agent abruptly ended the call after the patient asked about office hours, indicating a failure to engage with the patient's request. This is a significant issue as it prevents the patient from receiving essential information.
-
-**Expected:** The agent should have provided the office hours for the week as requested by the patient.
-
----
-
-## Failure to Address Patient Inquiry
-
-**Severity:** High  
-**Call:** transcript-06-0624-0354.txt at 00:32  
-**Scenario:** Insurance Coverage Question
-
-**Details:** The agent did not respond to the patient's question about Aetna HMO acceptance, which is the primary purpose of the call. This is a significant issue as it fails to provide the necessary information the patient is seeking.
-
-**Expected:** The agent should have directly answered the question about Aetna HMO acceptance.
-
----
-
-## Call Termination Without Interaction
-
-**Severity:** High  
-**Call:** transcript-06-0624-0354.txt at 00:48  
-**Scenario:** Insurance Coverage Question
-
-**Details:** The agent indicated it would end the call without any meaningful interaction or resolution to the patient's inquiry. This is problematic as it leaves the patient without answers and reflects poor customer service.
-
-**Expected:** The agent should have continued the conversation or provided an option for the patient to ask further questions.
-
----
-
-## Failure to Address Urgent Symptoms
-
-**Severity:** High  
-**Call:** transcript-07-0624-0355.txt at 00:32  
-**Scenario:** Urgent Symptoms Triage
-
-**Details:** The agent abruptly ended the call without addressing the patient's reported symptoms of chest tightness and shoulder pain, which are potentially serious. This is a critical failure in triaging urgent symptoms.
-
-**Expected:** The agent should have acknowledged the symptoms, assessed the urgency, and offered to schedule an appointment or provide guidance on next steps.
-
----
-
-## Failure to Engage with Vague Requests
-
-**Severity:** High  
-**Call:** transcript-08-0624-0356.txt at 00:30  
-**Scenario:** Vague and Unclear Request
-
-**Details:** The AGENT did not attempt to clarify or engage further when the PATIENT provided vague responses. This indicates a lack of ability to handle unclear requests effectively.
-
-**Expected:** The AGENT should have prompted the PATIENT for more information or clarified their needs instead of ending the call.
-
----
-
-## Abrupt Call Termination
-
 **Severity:** Medium  
-**Call:** transcript-08-0624-0356.txt at 00:48  
-**Scenario:** Vague and Unclear Request
-
-**Details:** The AGENT decided to end the call without confirming whether the PATIENT needed assistance or had any specific requests, which is unprofessional and dismissive.
-
-**Expected:** The AGENT should have continued to seek clarification or offered to assist the PATIENT further before terminating the call.
-
----
-
-## Call Termination Without Assistance
-
-**Severity:** High  
-**Call:** transcript-09-0624-0356.txt at 00:40  
+**Call:** transcript-10-0627-2113.txt at 00:18  
 **Scenario:** Interruption and Barge-In
 
-**Details:** The agent abruptly ended the call after the patient requested to schedule a dermatology appointment, which is a failure to assist the patient and fulfill the purpose of the call.
+**Details:** The agent asked if it was speaking with Maria despite the patient clearly identifying herself as Emily Davis, which indicates a failure to verify the correct identity.
 
-**Expected:** The agent should have continued the conversation to schedule the appointment as requested.
+**Expected:** The agent should have confirmed the patient's identity after the patient introduced herself, ensuring accurate communication.
 
 ---
 
-## Failure to Address Patient Requests
+## Ignoring Patient's Intent
 
 **Severity:** High  
-**Call:** transcript-10-0624-0358.txt at unknown  
-**Scenario:** Multiple Requests in One Call
+**Call:** transcript-10-0627-2113.txt at 00:30  
+**Scenario:** Interruption and Barge-In
 
-**Details:** The agent did not respond to the patient's request for a Metformin refill or for scheduling a diabetes follow-up, resulting in an unresolved call.
+**Details:** The agent did not acknowledge the patient's intent to book a dermatology appointment and instead offered unrelated orthopedic services, which could lead to confusion.
 
-**Expected:** The agent should have acknowledged both requests and provided appropriate responses or next steps.
-
----
-
-## Incorrect Call Handling
-
-**Severity:** High  
-**Call:** transcript-10-0624-0358.txt at 00:40  
-**Scenario:** Multiple Requests in One Call
-
-**Details:** The agent abruptly ended the call without completing the conversation or confirming if the patient needed anything else.
-
-**Expected:** The agent should have maintained the call until all patient requests were addressed or confirmed.
+**Expected:** The agent should have focused on the patient's request for a dermatology appointment and provided relevant options or information.
 
 ---
-
-## Lack of Patient Verification
-
-**Severity:** Medium  
-**Call:** transcript-10-0624-0358.txt at unknown  
-**Scenario:** Multiple Requests in One Call
-
-**Details:** The agent did not verify the patient's identity before processing the refill request, which is a critical step in ensuring patient safety.
-
-**Expected:** The agent should have asked for identifying information to verify the patient's identity before proceeding with the requests.

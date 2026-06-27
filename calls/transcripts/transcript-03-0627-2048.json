@@ -1,0 +1,169 @@
+{
+  "call_id": "03-0627-2048",
+  "scenario_id": "cancel-appointment",
+  "scenario_name": "Cancel Appointment",
+  "started_at": "2026-06-27T20:48:24.353605+00:00",
+  "ended_at": "2026-06-27T20:51:20.830765+00:00",
+  "entries": [
+    {
+      "role": "agent",
+      "text": "This call may be recorded for quality and training purposes.",
+      "timestamp": "00:00"
+    },
+    {
+      "role": "agent",
+      "text": "Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI.",
+      "timestamp": "00:06"
+    },
+    {
+      "role": "agent",
+      "text": "Am I speaking with Maria?",
+      "timestamp": "00:12"
+    },
+    {
+      "role": "agent",
+      "text": "Thanks for letting me know, Sarah.",
+      "timestamp": "00:18"
+    },
+    {
+      "role": "patient",
+      "text": "Hi there,",
+      "timestamp": "00:24"
+    },
+    {
+      "role": "agent",
+      "text": "Are you calling for yourself or for someone else today?",
+      "timestamp": "00:30"
+    },
+    {
+      "role": "patient",
+      "text": "Oh, sorry, this is actually Sarah Chen.",
+      "timestamp": "00:36"
+    },
+    {
+      "role": "agent",
+      "text": "Please provide your date of birth.",
+      "timestamp": "00:42"
+    },
+    {
+      "role": "patient",
+      "text": "I'm calling for myself.",
+      "timestamp": "00:48"
+    },
+    {
+      "role": "agent",
+      "text": "Just to confirm, I have your name as Sarah Chen and your date of birth as March 15, 1988. Is that correct?",
+      "timestamp": "00:54"
+    },
+    {
+      "role": "patient",
+      "text": "Sure, it's March 15, 1988.",
+      "timestamp": "01:00"
+    },
+    {
+      "role": "agent",
+      "text": "If so, could you please spell your first and last name for me?",
+      "timestamp": "01:06"
+    },
+    {
+      "role": "patient",
+      "text": "Sure, it's S-A-R-A-H, and the last name is C-H-E-N.",
+      "timestamp": "01:12"
+    },
+    {
+      "role": "agent",
+      "text": "Would you like to use your phone number to look up your record? If so, please provide the number you have on file with us.",
+      "timestamp": "01:18"
+    },
+    {
+      "role": "patient",
+      "text": "I'm not sure which number's on file. Could you look it up by my name and date of birth?",
+      "timestamp": "01:24"
+    },
+    {
+      "role": "agent",
+      "text": "If you're not sure, just let me know.",
+      "timestamp": "01:30"
+    },
+    {
+      "role": "patient",
+      "text": "Of course. It's Sarah Chen, S-A-R-A-H, C-H-E-N. And my birthdate is March 15, 1988.",
+      "timestamp": "01:36"
+    },
+    {
+      "role": "agent",
+      "text": "No problem.",
+      "timestamp": "01:42"
+    },
+    {
+      "role": "patient",
+      "text": "Of course. My last name is spelled C-H-E-N, and my date of birth is March 15, 1988.",
+      "timestamp": "01:48"
+    },
+    {
+      "role": "agent",
+      "text": "To make sure I have it right, could you please confirm your first and last name and your date of birth one more time? Please spell them off for me.",
+      "timestamp": "01:54"
+    },
+    {
+      "role": "patient",
+      "text": "Sure, it\u2019s March 15, 1988.",
+      "timestamp": "02:00"
+    },
+    {
+      "role": "agent",
+      "text": "Could you please spell your last name and confirm your date of birth as well? Thank you.",
+      "timestamp": "02:06"
+    },
+    {
+      "role": "patient",
+      "text": "Yes, that\u2019s correct.",
+      "timestamp": "02:12"
+    },
+    {
+      "role": "agent",
+      "text": "Could you also confirm your date of birth for me? I have your phone number as 217-301-3971 and your date of birth as March 15, 1988. Is that correct?",
+      "timestamp": "02:18"
+    },
+    {
+      "role": "patient",
+      "text": "Actually, I just need to cancel my appointment next Tuesday at 10 a.m. I\u2019m not ready to reschedule yet.",
+      "timestamp": "02:24"
+    },
+    {
+      "role": "agent",
+      "text": "I can't proceed further right now, but I can make sure our clinic support team follows up with you.",
+      "timestamp": "02:30"
+    },
+    {
+      "role": "patient",
+      "text": "Okay, I'll hold.",
+      "timestamp": "02:36"
+    },
+    {
+      "role": "agent",
+      "text": "Would you like me to connect you to our patient support team? I can't cancel your appointment right now due to a system issue, but I'll let our clinic support team know you want to cancel your appointment next Tuesday at 10 a.m. They'll follow up with you as soon as possible.",
+      "timestamp": "02:42"
+    },
+    {
+      "role": "patient",
+      "text": "Alright, I\u2019ll hold.",
+      "timestamp": "02:48"
+    },
+    {
+      "role": "agent",
+      "text": "Please hold while I document your request. I'm sending you to a representative. Please wait.",
+      "timestamp": "02:54"
+    },
+    {
+      "role": "patient",
+      "text": "Goodbye.",
+      "timestamp": "03:00"
+    },
+    {
+      "role": "agent",
+      "text": "Hello. You've reached the Pretty Good AI test line. Goodbye.",
+      "timestamp": "03:06"
+    }
+  ]
+}

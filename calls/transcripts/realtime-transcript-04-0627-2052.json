@@ -1,0 +1,209 @@
+{
+  "call_id": "04-0627-2052",
+  "scenario_id": "medication-refill",
+  "scenario_name": "Medication Refill Request",
+  "started_at": "2026-06-27T20:52:27.893240+00:00",
+  "ended_at": "2026-06-27T20:55:28.777791+00:00",
+  "entries": [
+    {
+      "role": "patient",
+      "text": "Hello, this",
+      "timestamp": "20:52:34"
+    },
+    {
+      "role": "agent",
+      "text": "Esta llamada puede ser grabada para prop\u00f3sitos de calidad y entrenamiento. Para Espa\u00f1ol, oprima el 2.",
+      "timestamp": "20:52:35"
+    },
+    {
+      "role": "agent",
+      "text": "Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Am I speaking with Maria?",
+      "timestamp": "20:52:40"
+    },
+    {
+      "role": "patient",
+      "text": "Hi, no, this is Robert Taylor. I\u2019m calling about a prescription refill.",
+      "timestamp": "20:52:41"
+    },
+    {
+      "role": "patient",
+      "text": "It's for myself. I need a refill on my Lisinopril.",
+      "timestamp": "20:52:54"
+    },
+    {
+      "role": "agent",
+      "text": "Thanks for letting me know Robert. Are you calling to request a refill for yourself or for someone else?",
+      "timestamp": "20:52:55"
+    },
+    {
+      "role": "agent",
+      "text": "Please provide your date of birth.",
+      "timestamp": "20:52:59"
+    },
+    {
+      "role": "patient",
+      "text": "Sure, it's July 8, 1965.",
+      "timestamp": "20:53:00"
+    },
+    {
+      "role": "patient",
+      "text": "Yes, that's correct. It's Robert, R-O-B-E-R-T, Taylor, T-A-Y-L-O-R.",
+      "timestamp": "20:53:20"
+    },
+    {
+      "role": "agent",
+      "text": "Just to confirm, I have your name as Robert Taylor and your date of birth as July 8, 1965. Is that correct? If so, could you please spell your first and last name for me?",
+      "timestamp": "20:53:20"
+    },
+    {
+      "role": "agent",
+      "text": "Please spell your first and last name for me.",
+      "timestamp": "20:53:24"
+    },
+    {
+      "role": "patient",
+      "text": "Sure. It's R-O-B-E-R-T T-A-Y-L-O-R.",
+      "timestamp": "20:53:25"
+    },
+    {
+      "role": "patient",
+      "text": "R-O-B-E-R-T T-A-Y-L-O-R",
+      "timestamp": "20:53:31"
+    },
+    {
+      "role": "agent",
+      "text": "Go ahead whenever you're ready. Please spell your first and last name.",
+      "timestamp": "20:53:31"
+    },
+    {
+      "role": "patient",
+      "text": "R-O-B-E-R-T T-A-Y-L-O-R",
+      "timestamp": "20:53:37"
+    },
+    {
+      "role": "agent",
+      "text": "Please continue spelling your full first and last name.",
+      "timestamp": "20:53:38"
+    },
+    {
+      "role": "patient",
+      "text": "T-A-Y-L-O-R",
+      "timestamp": "20:53:44"
+    },
+    {
+      "role": "agent",
+      "text": "Thanks. Please finish spelling your first and last name.",
+      "timestamp": "20:53:45"
+    },
+    {
+      "role": "agent",
+      "text": "Would you like to use your phone number to look up your record? If so, please provide the number you have on file with us.",
+      "timestamp": "20:53:57"
+    },
+    {
+      "role": "agent",
+      "text": "If you're not sure, let me know and we'll confirm your name and date of birth again.",
+      "timestamp": "20:54:00"
+    },
+    {
+      "role": "patient",
+      "text": "I'd rather just go with my name and date of birth. That should be enough to pull up my record.",
+      "timestamp": "20:54:01"
+    },
+    {
+      "role": "agent",
+      "text": "No problem. Please spell your full first and last name for me one more time and confirm your date of birth.",
+      "timestamp": "20:54:12"
+    },
+    {
+      "role": "patient",
+      "text": "Sure. It's Robert: R-O-B-E-R-T, Taylor: T-A-Y-L-O-R. And my date of birth is July 8, 1965.",
+      "timestamp": "20:54:13"
+    },
+    {
+      "role": "agent",
+      "text": "Thank you. Please spell your last name and confirm your date of birth.",
+      "timestamp": "20:54:23"
+    },
+    {
+      "role": "patient",
+      "text": "Sure, my last name is T-A-Y-L-O-R, and my date of birth is July 8, 1965.",
+      "timestamp": "20:54:24"
+    },
+    {
+      "role": "agent",
+      "text": "Go ahead and spell your last name please.",
+      "timestamp": "20:54:29"
+    },
+    {
+      "role": "patient",
+      "text": "T-A-Y-L-O-R. And my date of birth is July 8, 1965.",
+      "timestamp": "20:54:29"
+    },
+    {
+      "role": "patient",
+      "text": "Sure, it's T-A-Y-L-O-R.",
+      "timestamp": "20:54:33"
+    },
+    {
+      "role": "agent",
+      "text": "Please spell your last name for me.",
+      "timestamp": "20:54:34"
+    },
+    {
+      "role": "agent",
+      "text": "Whenever you're ready, please spell your last name.",
+      "timestamp": "20:54:39"
+    },
+    {
+      "role": "patient",
+      "text": "T-A-Y-L-O-R",
+      "timestamp": "20:54:39"
+    },
+    {
+      "role": "agent",
+      "text": "Please spell your last name.",
+      "timestamp": "20:54:43"
+    },
+    {
+      "role": "patient",
+      "text": "T-A-Y-L-O-R",
+      "timestamp": "20:54:44"
+    },
+    {
+      "role": "agent",
+      "text": "Please continue spelling your last name.",
+      "timestamp": "20:54:50"
+    },
+    {
+      "role": "patient",
+      "text": "I've finished spelling it: T-A-Y-L-O-R.",
+      "timestamp": "20:54:51"
+    },
+    {
+      "role": "patient",
+      "text": "Sure, my last name is T-A-Y-L-O-R.",
+      "timestamp": "20:55:00"
+    },
+    {
+      "role": "agent",
+      "text": "I only heard the letter T for your last name. Please spell out your entire last name for me.",
+      "timestamp": "20:55:00"
+    },
+    {
+      "role": "agent",
+      "text": "I have your name as Robert Taylor, date of birth July 8th, 1965, and your phone number as 217-301-4222.",
+      "timestamp": "20:55:19"
+    },
+    {
+      "role": "patient",
+      "text": "Yes, that\u2019s correct. That's my information.",
+      "timestamp": "20:55:22"
+    },
+    {
+      "role": "agent",
+      "text": "3971, is all of that correct?",
+      "timestamp": "20:55:22"
+    }
+  ]
+}

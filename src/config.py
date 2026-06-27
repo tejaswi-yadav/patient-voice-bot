@@ -50,6 +50,16 @@ class Settings(BaseSettings):
         alias="MAX_CALL_DURATION_SECONDS",
     )
     call_cooldown_seconds: int = Field(default=30, alias="CALL_COOLDOWN_SECONDS")
+    patient_outbound_gain: float = Field(
+        default=4.0,
+        alias="PATIENT_OUTBOUND_GAIN",
+        description="Multiply patient TTS volume sent to Twilio (1.0 = no boost)",
+    )
+    interruption_min_ms: int = Field(
+        default=800,
+        alias="INTERRUPTION_MIN_MS",
+        description="Min patient speech (ms) before agent barge-in clears outbound audio",
+    )
 
     @field_validator("domain")
     @classmethod

@@ -1,0 +1,129 @@
+{
+  "call_id": "08-0627-2107",
+  "scenario_id": "unclear-request",
+  "scenario_name": "Vague and Unclear Request",
+  "started_at": "2026-06-27T21:07:09.343869+00:00",
+  "ended_at": "2026-06-27T21:09:24.877017+00:00",
+  "entries": [
+    {
+      "role": "agent",
+      "text": "This call may be recorded for quality and training purposes.",
+      "timestamp": "00:00"
+    },
+    {
+      "role": "agent",
+      "text": "Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI.",
+      "timestamp": "00:06"
+    },
+    {
+      "role": "agent",
+      "text": "Am I speaking with Maria?",
+      "timestamp": "00:12"
+    },
+    {
+      "role": "agent",
+      "text": "Thanks for letting me know, Tom, are you calling to schedule an appointment for yourself or for someone else?",
+      "timestamp": "00:18"
+    },
+    {
+      "role": "patient",
+      "text": "Uh, no, this is Tom Anderson. I need to come in, I guess, for that thing.",
+      "timestamp": "00:24"
+    },
+    {
+      "role": "agent",
+      "text": "Please provide your date of birth.",
+      "timestamp": "00:30"
+    },
+    {
+      "role": "patient",
+      "text": "Yeah, it\u2019s for me. I need to get an appointment.",
+      "timestamp": "00:36"
+    },
+    {
+      "role": "agent",
+      "text": "Just to confirm, I have your name as Tom Anderson and your date of birth as April 12th, 1980. Is that correct?",
+      "timestamp": "00:42"
+    },
+    {
+      "role": "patient",
+      "text": "Sure, it\u2019s April 12, 1980.",
+      "timestamp": "00:48"
+    },
+    {
+      "role": "agent",
+      "text": "If so, could you please spell your first and last name for me?",
+      "timestamp": "00:54"
+    },
+    {
+      "role": "patient",
+      "text": "Yeah, that\u2019s right. It\u2019s T-O-M for Tom, and A-N-D-E-R-S-O-N for Anderson.",
+      "timestamp": "01:00"
+    },
+    {
+      "role": "agent",
+      "text": "Thanks, Tom. Could you please spell your last name Anderson for me?",
+      "timestamp": "01:06"
+    },
+    {
+      "role": "patient",
+      "text": "Yeah, it\u2019s A-N-D-E-R-S-O-N.",
+      "timestamp": "01:12"
+    },
+    {
+      "role": "agent",
+      "text": "Thank you. Just to confirm, your name is Tom Anderson and your date of birth is April 12th, 1980. Is that correct?",
+      "timestamp": "01:18"
+    },
+    {
+      "role": "patient",
+      "text": "Yeah, it's A-N-D-E-R-S-O-N.",
+      "timestamp": "01:24"
+    },
+    {
+      "role": "agent",
+      "text": "I have your name as Tom Anderson, your date of birth as April 12th, 1980, and your phone number as 217-301-3971. Is all of that correct?",
+      "timestamp": "01:30"
+    },
+    {
+      "role": "patient",
+      "text": "Yeah, that\u2019s right.",
+      "timestamp": "01:36"
+    },
+    {
+      "role": "agent",
+      "text": "I can't schedule your appointment right now, but I'll connect you to our patient support team for help.",
+      "timestamp": "01:42"
+    },
+    {
+      "role": "patient",
+      "text": "Yeah, that\u2019s correct.",
+      "timestamp": "01:48"
+    },
+    {
+      "role": "agent",
+      "text": "Please stay on the line. Connecting you to a representative. Please wait.",
+      "timestamp": "01:54"
+    },
+    {
+      "role": "patient",
+      "text": "So, I\u2019m trying to set up a follow-up for my knee injury from a few weeks ago.",
+      "timestamp": "02:00"
+    },
+    {
+      "role": "agent",
+      "text": "Hello, you've reached the Pretty Good AI test line.",
+      "timestamp": "02:06"
+    },
+    {
+      "role": "patient",
+      "text": "Wait, hold on, I still need to schedule my follow-up for my knee injury.",
+      "timestamp": "02:12"
+    },
+    {
+      "role": "agent",
+      "text": "Goodbye.",
+      "timestamp": "02:18"
+    }
+  ]
+}

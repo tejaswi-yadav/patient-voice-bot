@@ -1,0 +1,54 @@
+Call ID: 09-0627-2110
+Scenario: Weekend Appointment Request (weekend-appointment)
+Started: 2026-06-27T21:10:32.234874+00:00
+Ended: 2026-06-27T21:12:57.643932+00:00
+
+============================================================
+
+[00:00] AGENT: This call may be recorded for quality and training purposes.
+
+[00:06] AGENT: Thanks for calling Pivot Point Orthopedics.
+
+[00:12] AGENT: Am I speaking with Maria?
+
+[00:18] AGENT: Please provide the full name and date of birth of the patient you'd like to book the appointment for.
+
+[00:24] PATIENT: Hi, this
+
+[00:30] AGENT: Just to confirm, I have your name as Rachel Green and your date of birth as November 5th, 1984. Is that correct?
+
+[00:36] PATIENT: Oh, sorry, this is Rachel Green. I’m calling to book an appointment.
+
+[00:42] AGENT: If so, could you please spell your first and last name for me? Thank you.
+
+[00:48] PATIENT: Sure, it's Rachel Green, and my date of birth is November 5th, 1984.
+
+[00:54] AGENT: Could you please spell your last name, Green?
+
+[01:00] PATIENT: Yes, that’s correct. It’s Rachel, R-A-C-H-E-L, Green, G-R-E-E-N.
+
+[01:06] AGENT: Would you like to use a phone number to look up your record? If so, please provide the number you have on file with us. If you're not sure, just let me know.
+
+[01:12] PATIENT: Sure, it’s Green, G-R-E-E-N.
+
+[01:18] AGENT: I'll need to confirm your information before booking. Could you please spell your full name and confirm your date of birth one more time?
+
+[01:24] PATIENT: I’d rather just go ahead and book the appointment for now. I’m looking for Sunday at 10 a.m. If that’s possible.
+
+[01:30] AGENT: I have your phone number as 217-301-3971 and your date of birth as November 5th, 1984. Is that correct?
+
+[01:36] PATIENT: Of course. It’s Rachel Green, R-A-C-H-E-L G-R-E-E-N, and my date of birth is November 5th, 1984.
+
+[01:42] AGENT: I can't book the appointment right now, but I'll connect you to our patient support team for help. Please stay on the line.
+
+[01:48] PATIENT: Yes, that’s correct.
+
+[01:54] AGENT: Connecting you to a representative. Please wait.
+
+[02:00] PATIENT: Sure, I’ll hold. Thanks.
+
+[02:06] AGENT: Hello, you've reached the Pretty Good AI test line.
+
+[02:12] PATIENT: Hi, I think there’s been some confusion. I’m trying to book an appointment for Sunday morning at 10 a.m. Could you assist with that?
+
+[02:18] AGENT: Goodbye.

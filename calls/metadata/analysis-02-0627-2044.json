@@ -1,0 +1,31 @@
+{
+  "summary": "The AI agent failed to effectively assist the patient in rescheduling their appointment, leading to a disconnection without resolution.",
+  "issues": [
+    {
+      "title": "Failure to Reschedule Appointment",
+      "severity": "High",
+      "timestamp": "01:42",
+      "details": "The agent stated it could not help with rescheduling and transferred the patient to support, which is not the expected behavior for an agent designed to handle appointment rescheduling.",
+      "expected": "The agent should have processed the request to reschedule the appointment and provided available time slots."
+    },
+    {
+      "title": "Incorrect Confirmation of Patient Identity",
+      "severity": "Medium",
+      "timestamp": "00:30",
+      "details": "The agent incorrectly assumed the patient's name before confirming their identity, which could lead to privacy issues.",
+      "expected": "The agent should have waited for the patient to confirm their identity before making assumptions."
+    },
+    {
+      "title": "Ignoring Patient's Urgent Request",
+      "severity": "High",
+      "timestamp": "02:00",
+      "details": "The agent disconnected the call without addressing the patient's urgent need to reschedule, demonstrating a lack of responsiveness to the patient's request.",
+      "expected": "The agent should have acknowledged the urgency and continued the conversation to assist the patient."
+    }
+  ],
+  "conversation_quality": {
+    "natural_flow": 2,
+    "task_completion": 1,
+    "accuracy": 3
+  }
+}

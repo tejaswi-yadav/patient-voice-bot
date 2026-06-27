@@ -1,0 +1,86 @@
+Call ID: 04-0627-2052
+Scenario: Medication Refill Request (medication-refill)
+Started: 2026-06-27T20:52:27.893240+00:00
+Ended: 2026-06-27T20:55:28.777791+00:00
+
+============================================================
+
+[00:00] AGENT: This call may be recorded for quality and training purposes.
+
+[00:06] AGENT: Para espanol, oprima el dos.
+
+[00:12] AGENT: Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI.
+
+[00:18] AGENT: Am I speaking with Maria?
+
+[00:24] PATIENT: Hello, this
+
+[00:30] AGENT: Thanks for letting me know, Robert.
+
+[00:36] PATIENT: Hi, no, this is Robert Taylor. I’m calling about a prescription refill.
+
+[00:42] AGENT: Are you calling to request a refill for yourself or for someone else?
+
+[00:48] PATIENT: It's for myself. I need a refill on my Lisinopril.
+
+[00:54] AGENT: Please provide your date of birth.
+
+[01:00] PATIENT: Sure, it's July 8, 1965.
+
+[01:06] AGENT: Just to confirm, I have your name as Robert Taylor and your date of birth as July 8, 1965. Is that correct?
+
+[01:12] PATIENT: Yes, that's correct. It's Robert, R-O-B-E-R-T, Taylor, T-A-Y-L-O-R.
+
+[01:18] AGENT: If so, could you please spell your first and last name for me? Go ahead whenever you're ready.
+
+[01:24] PATIENT: Sure. It's R-O-B-E-R-T T-A-Y-L-O-R.
+
+[01:30] AGENT: Thanks. Please finish spelling your first and last name.
+
+[01:36] PATIENT: R-O-B-E-R-T T-A-Y-L-O-R
+
+[01:42] AGENT: Would you like to use your phone number to look up your record? If so, please provide the number you have on file with us.
+
+[01:48] PATIENT: R-O-B-E-R-T T-A-Y-L-O-R
+
+[01:54] AGENT: If you're not sure, let me know and we'll confirm your name and date of birth again.
+
+[02:00] PATIENT: T-A-Y-L-O-R
+
+[02:06] AGENT: No problem.
+
+[02:12] PATIENT: I'd rather just go with my name and date of birth. That should be enough to pull up my record.
+
+[02:18] AGENT: Please spell your full first and last name for me one more time and confirm your date of birth.
+
+[02:24] PATIENT: Sure. It's Robert: R-O-B-E-R-T, Taylor: T-A-Y-L-O-R. And my date of birth is July 8, 1965.
+
+[02:30] AGENT: Thank you. Please spell your last name and confirm your date of birth.
+
+[02:36] PATIENT: Sure, my last name is T-A-Y-L-O-R, and my date of birth is July 8, 1965.
+
+[02:42] AGENT: Go ahead and spell your last name, please.
+
+[02:48] PATIENT: T-A-Y-L-O-R. And my date of birth is July 8, 1965.
+
+[02:54] AGENT: Whenever you're ready, please spell your last name.
+
+[03:00] PATIENT: Sure, it's T-A-Y-L-O-R.
+
+[03:06] AGENT: Please continue spelling your last name.
+
+[03:12] PATIENT: T-A-Y-L-O-R
+
+[03:18] AGENT: I only heard the letter T for your last name. Please spell out your entire last name for me.
+
+[03:24] PATIENT: T-A-Y-L-O-R
+
+[03:30] AGENT: I have your name as Robert Taylor, date of birth July 8, 1965, and your phone number as 217-301-3971. Is all of that correct?
+
+[03:36] PATIENT: I've finished spelling it: T-A-Y-L-O-R.
+
+[03:42] AGENT: I can't proceed further right now, but...
+
+[03:48] PATIENT: Sure, my last name is T-A-Y-L-O-R.
+
+[03:54] PATIENT: Yes, that’s correct. That's my information.

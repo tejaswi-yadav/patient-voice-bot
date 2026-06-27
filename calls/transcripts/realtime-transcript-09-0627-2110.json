@@ -1,0 +1,114 @@
+{
+  "call_id": "09-0627-2110",
+  "scenario_id": "weekend-appointment",
+  "scenario_name": "Weekend Appointment Request",
+  "started_at": "2026-06-27T21:10:32.234874+00:00",
+  "ended_at": "2026-06-27T21:12:57.643932+00:00",
+  "entries": [
+    {
+      "role": "agent",
+      "text": "Esta llamada puede ser grabada para motivos de calidad y entrenamiento. Para Espa\u00f1ol, oprima el 2.",
+      "timestamp": "21:10:39"
+    },
+    {
+      "role": "patient",
+      "text": "Hi, this",
+      "timestamp": "21:10:41"
+    },
+    {
+      "role": "agent",
+      "text": "Thanks for calling Pivot Point Orthopaedics.",
+      "timestamp": "21:10:42"
+    },
+    {
+      "role": "patient",
+      "text": "Oh, sorry, this is Rachel Green. I\u2019m calling to book an appointment.",
+      "timestamp": "21:10:45"
+    },
+    {
+      "role": "agent",
+      "text": "part of pretty good AI.",
+      "timestamp": "21:10:46"
+    },
+    {
+      "role": "patient",
+      "text": "Sure, it's Rachel Green, and my date of birth is November 5th, 1984.",
+      "timestamp": "21:10:58"
+    },
+    {
+      "role": "agent",
+      "text": "Please provide the full name and date of birth of the patient you'd like to book the appointment for.",
+      "timestamp": "21:10:58"
+    },
+    {
+      "role": "patient",
+      "text": "Yes, that\u2019s correct. It\u2019s Rachel, R-A-C-H-E-L, Green, G-R-E-E-N.",
+      "timestamp": "21:11:22"
+    },
+    {
+      "role": "agent",
+      "text": "Just to confirm, I have your name as Rachel Green and your date of birth as November 5th, 1984. Is that correct? If so, could you please spell your first and last name for me?",
+      "timestamp": "21:11:23"
+    },
+    {
+      "role": "agent",
+      "text": "Thank you. Could you please spell your last name green?",
+      "timestamp": "21:11:32"
+    },
+    {
+      "role": "patient",
+      "text": "Sure, it\u2019s Green, G-R-E-E-N.",
+      "timestamp": "21:11:32"
+    },
+    {
+      "role": "patient",
+      "text": "I\u2019d rather just go ahead and book the appointment for now. I\u2019m looking for Sunday at 10 a.m. If that\u2019s possible.",
+      "timestamp": "21:11:47"
+    },
+    {
+      "role": "agent",
+      "text": "Would you like to use a phone number to look up your record? If so, please provide the number you have on file with us. If you're not sure, just let me know.",
+      "timestamp": "21:11:47"
+    },
+    {
+      "role": "agent",
+      "text": "I'll need to confirm your information before booking. Could you please spell your full name and confirm your date of birth one more time?",
+      "timestamp": "21:12:00"
+    },
+    {
+      "role": "patient",
+      "text": "Of course. It\u2019s Rachel Green, R-A-C-H-E-L G-R-E-E-N, and my date of birth is November 5th, 1984.",
+      "timestamp": "21:12:01"
+    },
+    {
+      "role": "patient",
+      "text": "Yes, that\u2019s correct.",
+      "timestamp": "21:12:25"
+    },
+    {
+      "role": "agent",
+      "text": "I have your phone number as 217-301-3971 and your date of birth as November 5th, 1984. Is that correct?",
+      "timestamp": "21:12:25"
+    },
+    {
+      "role": "patient",
+      "text": "Sure, I\u2019ll hold. Thanks.",
+      "timestamp": "21:12:41"
+    },
+    {
+      "role": "agent",
+      "text": "I can't book the appointment right now, but I'll connect you to our patient support team for help. Please stay on the line. Connecting you to a representative, please wait.",
+      "timestamp": "21:12:42"
+    },
+    {
+      "role": "patient",
+      "text": "Hi, I think there\u2019s been some confusion. I\u2019m trying to book an appointment for Sunday morning at 10 a.m. Could you assist with that?",
+      "timestamp": "21:12:47"
+    },
+    {
+      "role": "agent",
+      "text": "Hello, you've reached the pretty good AI test line. Goodbye",
+      "timestamp": "21:12:48"
+    }
+  ]
+}

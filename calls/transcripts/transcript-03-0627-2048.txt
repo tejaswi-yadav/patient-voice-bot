@@ -1,0 +1,70 @@
+Call ID: 03-0627-2048
+Scenario: Cancel Appointment (cancel-appointment)
+Started: 2026-06-27T20:48:24.353605+00:00
+Ended: 2026-06-27T20:51:20.830765+00:00
+
+============================================================
+
+[00:00] AGENT: This call may be recorded for quality and training purposes.
+
+[00:06] AGENT: Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI.
+
+[00:12] AGENT: Am I speaking with Maria?
+
+[00:18] AGENT: Thanks for letting me know, Sarah.
+
+[00:24] PATIENT: Hi there,
+
+[00:30] AGENT: Are you calling for yourself or for someone else today?
+
+[00:36] PATIENT: Oh, sorry, this is actually Sarah Chen.
+
+[00:42] AGENT: Please provide your date of birth.
+
+[00:48] PATIENT: I'm calling for myself.
+
+[00:54] AGENT: Just to confirm, I have your name as Sarah Chen and your date of birth as March 15, 1988. Is that correct?
+
+[01:00] PATIENT: Sure, it's March 15, 1988.
+
+[01:06] AGENT: If so, could you please spell your first and last name for me?
+
+[01:12] PATIENT: Sure, it's S-A-R-A-H, and the last name is C-H-E-N.
+
+[01:18] AGENT: Would you like to use your phone number to look up your record? If so, please provide the number you have on file with us.
+
+[01:24] PATIENT: I'm not sure which number's on file. Could you look it up by my name and date of birth?
+
+[01:30] AGENT: If you're not sure, just let me know.
+
+[01:36] PATIENT: Of course. It's Sarah Chen, S-A-R-A-H, C-H-E-N. And my birthdate is March 15, 1988.
+
+[01:42] AGENT: No problem.
+
+[01:48] PATIENT: Of course. My last name is spelled C-H-E-N, and my date of birth is March 15, 1988.
+
+[01:54] AGENT: To make sure I have it right, could you please confirm your first and last name and your date of birth one more time? Please spell them off for me.
+
+[02:00] PATIENT: Sure, it’s March 15, 1988.
+
+[02:06] AGENT: Could you please spell your last name and confirm your date of birth as well? Thank you.
+
+[02:12] PATIENT: Yes, that’s correct.
+
+[02:18] AGENT: Could you also confirm your date of birth for me? I have your phone number as 217-301-3971 and your date of birth as March 15, 1988. Is that correct?
+
+[02:24] PATIENT: Actually, I just need to cancel my appointment next Tuesday at 10 a.m. I’m not ready to reschedule yet.
+
+[02:30] AGENT: I can't proceed further right now, but I can make sure our clinic support team follows up with you.
+
+[02:36] PATIENT: Okay, I'll hold.
+
+[02:42] AGENT: Would you like me to connect you to our patient support team? I can't cancel your appointment right now due to a system issue, but I'll let our clinic support team know you want to cancel your appointment next Tuesday at 10 a.m. They'll follow up with you as soon as possible.
+
+[02:48] PATIENT: Alright, I’ll hold.
+
+[02:54] AGENT: Please hold while I document your request. I'm sending you to a representative. Please wait.
+
+[03:00] PATIENT: Goodbye.
+
+[03:06] AGENT: Hello. You've reached the Pretty Good AI test line. Goodbye.

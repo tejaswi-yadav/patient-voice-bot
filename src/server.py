@@ -17,6 +17,7 @@ from fastapi.websockets import WebSocketDisconnect
 from twilio.rest import Client
 
 from src.analyzer import analyze_call, append_to_bug_report, save_analysis
+from src.audio_utils import boost_mulaw_payload_b64
 from src.config import (
     CALLS_DIR,
     METADATA_DIR,
@@ -352,14 +353,15 @@ def create_app(settings: Settings | None = None) -> FastAPI:
                                     delayed_hangup(call_sid, 3.0, twilio_client)
                                 )
 
-                    if (
-                        event_type == "response.output_audio.delta"
-                        and "delta" in response
-                        and stream_sid
-                    ):
-                        audio_payload = base64.b64encode(
-                            base64.b64decode(response["delta"])
-                        ).decode("utf-8")
+                    if event_type in (
+                        "response.output_audio.delta",
+                        "response.audio.delta",
+                    ) and "delta" in response and stream_sid:
+                        raw_delta = response["delta"]
+                        audio_payload = boost_mulaw_payload_b64(
+                            raw_delta,
+                            settings.patient_outbound_gain,
+                        )
                         await websocket.send_json(
                             {
                                 "event": "media",
@@ -384,6 +386,13 @@ def create_app(settings: Settings | None = None) -> FastAPI:
                                     latest_media_timestamp
                                     - response_start_timestamp
                                 )
+                            if elapsed < settings.interruption_min_ms:
+                                logger.debug(
+                                    "Ignoring early speech_started (%dms < %dms)",
+                                    elapsed,
+                                    settings.interruption_min_ms,
+                                )
+                                continue
                             if is_ws_open(openai_ws):
                                 await openai_ws.send(
                                     json.dumps(
@@ -441,7 +450,7 @@ async def initialize_openai_session(
                     "format": {"type": "audio/pcmu"},
                     "turn_detection": {
                         "type": "server_vad",
-                        "threshold": 0.4,
+                        "threshold": 0.5,
                         "prefix_padding_ms": 300,
                         "silence_duration_ms": 500,
                         "create_response": True,

@@ -1,0 +1,48 @@
+Call ID: 05-0627-2056
+Scenario: Office Hours Inquiry (office-hours)
+Started: 2026-06-27T20:56:36.404220+00:00
+Ended: 2026-06-27T20:58:03.749963+00:00
+
+============================================================
+
+[00:00] AGENT: This call may be recorded for quality and training purposes.
+
+[00:06] AGENT: Para Español, oprima el 2.
+
+[00:12] AGENT: Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI.
+
+[00:18] AGENT: Am I speaking with Maria?
+
+[00:24] PATIENT: Hi, I'm calling to check on some
+
+[00:30] AGENT: Thanks for letting me know.
+
+[00:36] PATIENT: Oh, actually, this is Linda Martinez. I'm a new patient.
+
+[00:42] AGENT: Linda, I can help you get started as a new patient.
+
+[00:48] PATIENT: Yes, I'd like to know your office hours, especially on weekdays.
+
+[00:54] AGENT: How can I assist you today?
+
+[01:00] PATIENT: Thanks. Do you have any Saturday hours, or evenings besides Wednesday?
+
+[01:06] AGENT: Are you looking to schedule your first appointment, or do you have another question?
+
+[01:12] PATIENT: Got it.
+
+[01:18] AGENT: Our clinic is open Monday, Tuesday, and Thursday from 9 a.m. to 4 p.m., Wednesday from 12 p.m. to 7 p.m., and Friday from 9 a.m. to 12 p.m.
+
+[01:24] PATIENT: Thanks. Could you tell me your exact location or address?
+
+[01:30] AGENT: Let me know if you need more details or want to schedule an appointment.
+
+[01:36] PATIENT: That's perfect, thank you. I think that covers everything I needed. Appreciate your help, goodbye.
+
+[01:42] AGENT: We are not open on Saturdays, and the only evening hours are on Wednesdays when we're open until 7 p.m.
+
+[01:48] AGENT: If you need a specific time, I can help you find the closest available slot.
+
+[01:54] AGENT: Our clinic is located at 1234 Recovery Way, Suite 200, Austin.
+
+[02:00] AGENT: If you need directions or more details, just let me know.

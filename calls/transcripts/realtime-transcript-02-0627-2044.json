@@ -1,0 +1,134 @@
+{
+  "call_id": "02-0627-2044",
+  "scenario_id": "reschedule-appointment",
+  "scenario_name": "Reschedule Existing Appointment",
+  "started_at": "2026-06-27T20:45:01.732462+00:00",
+  "ended_at": "2026-06-27T20:47:14.334130+00:00",
+  "entries": [
+    {
+      "role": "patient",
+      "text": "Hi, this is",
+      "timestamp": "20:45:08"
+    },
+    {
+      "role": "agent",
+      "text": "Esta llamada puede ser grabada para motivos de calidad y entrenamiento. Para Espa\u00f1ol, oprima el 2.",
+      "timestamp": "20:45:09"
+    },
+    {
+      "role": "patient",
+      "text": "Oh, actually, this is James Wilson calling. I need to reschedule my appointment.",
+      "timestamp": "20:45:15"
+    },
+    {
+      "role": "agent",
+      "text": "Thanks for calling pivot point orthopedics part of pretty good AI am I speaking with Maria",
+      "timestamp": "20:45:17"
+    },
+    {
+      "role": "patient",
+      "text": "Sure, it\u2019s James Wilson, and my date of birth is March 5th, 1983.",
+      "timestamp": "20:45:31"
+    },
+    {
+      "role": "agent",
+      "text": "Please provide the full name and date of birth of the patient whose appointment you'd like to reschedule.",
+      "timestamp": "20:45:31"
+    },
+    {
+      "role": "agent",
+      "text": "Just to confirm, I have your name as James Wilson and your date of birth as March 5th, 1983. Is that correct? If so, please spell your first and last name for me.",
+      "timestamp": "20:45:51"
+    },
+    {
+      "role": "patient",
+      "text": "Yes, that\u2019s correct. It\u2019s J-A-M-E-S for the first name, and W-I-L-S-O-N for the last name.",
+      "timestamp": "20:45:51"
+    },
+    {
+      "role": "agent",
+      "text": "Thanks",
+      "timestamp": "20:45:59"
+    },
+    {
+      "role": "agent",
+      "text": "Could you please spell your last name, Wilson?",
+      "timestamp": "20:46:00"
+    },
+    {
+      "role": "patient",
+      "text": "Sure, it\u2019s W-I-L-S-O-N.",
+      "timestamp": "20:46:01"
+    },
+    {
+      "role": "patient",
+      "text": "Sure, it's W-I-L-S-O-N.",
+      "timestamp": "20:46:05"
+    },
+    {
+      "role": "agent",
+      "text": "Could you please spell your last name, Wilson?",
+      "timestamp": "20:46:05"
+    },
+    {
+      "role": "patient",
+      "text": "Yeah, sure. The number on file should be 555-239-7812.",
+      "timestamp": "20:46:22"
+    },
+    {
+      "role": "agent",
+      "text": "Would you like to use your phone number to look up your record? If so, please provide the number you have on file with us. If you're not sure, just let me know.",
+      "timestamp": "20:46:22"
+    },
+    {
+      "role": "patient",
+      "text": "Yes, that\u2019s correct.",
+      "timestamp": "20:46:42"
+    },
+    {
+      "role": "agent",
+      "text": "I have your phone number as 555-239-7812 and your date of birth as March 5th, 1983. Is that correct?",
+      "timestamp": "20:46:43"
+    },
+    {
+      "role": "patient",
+      "text": "Oh, I really need to reschedule that appointment.",
+      "timestamp": "20:46:51"
+    },
+    {
+      "role": "agent",
+      "text": "I can't help with rescheduling right now.",
+      "timestamp": "20:46:51"
+    },
+    {
+      "role": "agent",
+      "text": "When I'll connect you to our patient support team, please stay on the line.",
+      "timestamp": "20:46:56"
+    },
+    {
+      "role": "agent",
+      "text": "Connecting you to a representative.",
+      "timestamp": "20:46:58"
+    },
+    {
+      "role": "patient",
+      "text": "All right, I'm holding.",
+      "timestamp": "20:46:59"
+    },
+    {
+      "role": "agent",
+      "text": "Please wait.",
+      "timestamp": "20:46:59"
+    },
+    {
+      "role": "agent",
+      "text": "Hello. You've reached the Pretty Good AI test line. Goodbye.",
+      "timestamp": "20:47:04"
+    },
+    {
+      "role": "patient",
+      "text": "Wait, I still need to reschedule my appointment\u2014can you help me with that before you go?",
+      "timestamp": "20:47:05"
+    }
+  ]
+}
